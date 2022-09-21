@@ -7,7 +7,6 @@ public class SnakeLadder {
 		System.out.println("Player Starting Position will be:~ ");
 		System.out.println(+start);
 		
-		
 	}
 
 }
