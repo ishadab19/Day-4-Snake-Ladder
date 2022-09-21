@@ -37,7 +37,7 @@ public class SnakeLadder {
 				if (userPosition < 0) {
 					userPosition = 0;
 				}
-			}
+			}System.out.println("Number of times user played "+count+" to reach: "+userPosition);
 			System.out.println("Presnt Position of the User: " + userPosition);
 			
 		}
