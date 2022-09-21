@@ -24,6 +24,10 @@ public class SnakeLadder {
 			case 1:
 				System.out.println("Ladder!");
 				userPosition = userPosition + dice;
+				if(userPosition >100)
+				{
+					userPosition = dice;
+				}
 
 				break;
 			default:
